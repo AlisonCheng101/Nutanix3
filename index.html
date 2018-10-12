@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.loadingbar.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/MS_1.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/loadingbar.css" />
+
+    <title>Nutanix Central</title>
+</head>
+<body>
+
+     <!-- Header-->
+
+     <div id="page"></div>
+  <header>
+    <div id="container">
+
+
+  <div style="margin: 0 auto; display: flex; position: relative; left: 100px;">
+  <svg viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="logo">
+    <path d="M4.99257281,15.9015351 C4.92949886,15.9623628 4.84534021,16 4.75289183,16 L0.354655764,16 C0.158766122,16 0,15.8321534 0,15.625339 C0,15.5221219 0.0396464777,15.4285993 0.103801687,15.3611185 L7.81107695,8.28609005 C7.88838758,8.21746873 7.93740504,8.11463181 7.93740504,7.99962933 C7.93740504,7.89089972 7.89343349,7.79319513 7.82351152,7.72495399 L0.12560725,0.660000166 C0.0486570408,0.591378854 0,0.489112188 0,0.374489884 C0,0.167865599 0.158766122,1.90086739e-05 0.354655764,1.90086739e-05 L4.75289183,1.90086739e-05 C4.84570063,1.90086739e-05 4.93021971,0.0374660962 4.99329365,0.0988641129 L13.2905806,7.71716044 C13.3657287,7.78559166 13.4131242,7.88652772 13.4131242,7.99962933 C13.4131242,8.11292103 13.3655485,8.21461743 13.2900399,8.28342883 L4.99257281,15.9015351 Z M16.7182889,15.8922969 L12.4510664,11.9744191 C12.3733954,11.9052275 12.3243779,11.8025807 12.3243779,11.6873881 C12.3243779,11.590634 12.3593389,11.5024337 12.4164659,11.4359033 L14.6127005,9.41946322 C14.6775766,9.34437896 14.7712864,9.29704736 14.8754485,9.29704736 C14.9734835,9.29704736 15.0619672,9.33886644 15.1263026,9.40615715 L21.574622,15.3275492 C21.6595015,15.3959804 21.7142857,15.5039496 21.7142857,15.6254151 C21.7142857,15.8320394 21.5555196,15.9998859 21.35963,15.9998859 L16.9669804,15.9998859 C16.870207,15.9998859 16.7822639,15.9588272 16.7182889,15.8922969 Z M16.7182889,0.107399008 C16.7822639,0.0410587356 16.870207,0 16.9669804,0 L21.35963,0 C21.5555196,0 21.7142857,0.16784659 21.7142857,0.374470876 C21.7142857,0.495936302 21.6595015,0.603715483 21.574622,0.672146709 L15.1263026,6.59353871 C15.0619672,6.66101951 14.9734835,6.70283859 14.8754485,6.70283859 C14.7712864,6.70283859 14.6775766,6.65569708 14.6127005,6.58042273 L12.4164659,4.5639826 C12.3593389,4.49745224 12.3243779,4.409252 12.3243779,4.31249785 C12.3243779,4.19749537 12.3733954,4.09465844 12.4510664,4.02565696 L16.7182889,0.107399008 Z"></path>
+  </svg>
+
+  <h1 style="height: auto; padding-top: 5px;"> Nutanix Central </h1>
+
+  <div class="dropdown" id="dropdown">
+    <button id="mypop" class="dropbtn"><i class="fas fa-angle-up"></i></button>
+
+  <div id="myDropdown" class="dropdown-content">
+    <div class="items">
+      <img src="images/Home.svg"/>
+        <span class="caption">Home</span>
+</div>
+
+   <div class="items">
+      <a href="prism.html" target="_blank"><img src="images/mPrism.svg"/></a>
+        <span class="caption">Prism</span>
+</div>
+
+ <div class="items">
+      <img src="images/mCalm.svg"/>
+        <span class="caption">Era</span>
+</div>
+
+<div class="items">
+      <img src="images/mEra.svg"/>
+        <span class="caption">Calm</span>
+</div>
+
+<div class="items">
+      <img src="images/mPermission.svg"/>
+        <span class="caption">Permiss...</span>
+</div>
+
+
+<div class="items">
+<br>
+      <a href="index2.html" target="_blank"><img src="images/mUpdates.svg"/></a>
+        <span class="caption">Upda...</span><br>
+</div>
+
+</div>
+
+  </div>
+
+  </div>
+
+
+    <div class="status">
+    <div class="icon task">
+      <img src="Icon - Alert.svg">
+      <span class="ico_num ico_num_red">8</span>
+      <img src="images/Tasks.svg">
+      <span class="ico_num">25</span>
+    </div>
+    <h6> Joel Daniels</h6>
+   <i class="fas fa-angle-down"></i></div>
+    </div>
+</header>
+
+  <!-- Tile-->
+
+<div id="mask" style="position: fixed; top: 0; left: 0; right:0; bottom:0; background: rgba(0,0,0,0.5); z-index: 10; display: none; "></div>
+<main class="main_page">
+ <div class="category">
+ <h5>Services </h5> 
+ <div class="main-body">
+      <div class="block_itme_sum">
+        <!--Prism--> 
+        <div class="block_itme block_itme1">
+        <div class="icons">
+            <img class="star" src="images/star.svg">
+            <img class="alerts" src="images/prism.svg">
+            <img class="settings" src="images/settings.svg">
+        </div>
+        <div class="tile-header">
+          <h3>Prism</h3>
+          <h4>Manage your on-prem Nutanix infrastructure</h4>
+        </div>
+        <div class="launch"></div>
+        <a href="prism.html" target="_blank" class="btnalerts">Launch</a> 
+        </div>
+      
+        <!--Era-->
+        <div class="block_itme">
+        <div class="icons">
+            <img class="star" src="images/star.svg">
+            <img class="alerts" src="images/era.svg">
+            <img class="settings" src="images/settings.svg">
+        </div>
+        <div class="tile-header">
+          <h3>Era</h3>
+          <h4>Automates and simplifies database management with one-click</h4>
+        </div>
+        <div class="launch"></div>
+        <a href="" class="btn">Launch</a> 
+        </div>
+
+        <!--Calm-->
+        <div class="block_itme">
+        <div class="icons">
+            <img class="star" src="images/star.svg">
+            <img class="alerts" src="images/calm.svg">
+            <img class="settings" src="images/settings.svg">
+        </div>
+        <div class="tile-header">
+          <h3>Calm</h3>
+          <h4>View deployed applications and take actions on them</h4>
+        </div>
+        <div class="launch"></div>
+        <a href="https://alisoncheng101.github.io/NC-Prototype/index2.html" class="btn">Launch</a> 
+        <div id="loadingbar-frame"></div>
+        </div>
+
+        <div class="clearfix"></div>
+
+      </div>
+
+
+
+      <h5> Global Tools </h5>
+
+      <div>
+        <!--Permissions-->
+        <div class="block_tool block_tool1">
+           <div class="icons">
+              <img class="star" src="images/star.svg">
+              <img class="alerts" src="images/permissions.svg">
+              <img class="settings" src="images/settings.svg">
+          </div>
+            <div class="tile-header">
+            <h3 style="text-align: center">Permissions</h3>
+            <h4>Control users, permissions and roles across Nutanix Central</h4>
+          </div>
+          <div class="launch"></div>
+          <a href="" target="_blank" class="btn">Launch</a> 
+        </div>
+
+        <!--Updates-->
+        <div class="block_tool">
+         <div class="icons">
+            <img class="star" src="images/star.svg">
+            <img class="alerts" src="images/updates.svg">
+            <img class="settings" src="images/settings.svg">
+        </div>
+          <div class="tile-header">
+          <h3>Updates</h3>
+          <h4>Install upgrades across all Nutanix services</h4>
+        </div>
+        <div class="launch"></div>
+        <a href="index2.html" target="_blank" class="btn" >Launch</a> 
+     
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+
+ 
+</div>
+</div>
+</main>
+<div id="loading"></div>
+
+
+
+
+
+
+
+    <script>
+
+var isPopShow = false;
+$('#mypop').click(function(event) {
+
+  if (!isPopShow) {
+    $('#myDropdown').show();
+    $('#mask').show();
+    $(this).addClass('focus');
+    isPopShow = true;
+  } else {
+    $('#myDropdown').hide();
+    $('#mask').hide();
+    $(this).removeClass('focus');
+    isPopShow = false;
+  }
+
+  event.stopPropagation();
+});
+
+$('#myDropdown').click(function(event) {
+  $('#myDropdown').show();
+  $('#mask').show();
+  $('#mypop').addClass('focus');
+  isPopShow = true;
+  event.stopPropagation();
+});
+
+$(window).click(function() {
+  $('#mypop').removeClass('focus');
+  $('#myDropdown').hide();
+  $('#mask').hide();
+  isPopShow = false;
+});
+
+
+</script>
+
+
+<script type="text/javascript">
+  function onReady(callback) {
+    var intervalID = window.setInterval(checkReady, 2000);
+
+    function checkReady() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+        }
+    }
+}
+
+function show(id, value) {
+    document.getElementById(id).style.display = value ? 'block' : 'none';
+}
+
+onReady(function () {
+    show('page', true);
+    show('loading', false);
+});
+</script>
+    
+ 
+
+
+</body>
+</html>
+
+
+ 
