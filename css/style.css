@@ -110,7 +110,7 @@ h1 {
 .status .icon .ico_num {
   font-family:NutanixSoft-Semibold;
   padding: 3px 8px;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 14px;
   height: 14px;
   display: inline-block;
@@ -491,7 +491,7 @@ h5{
     display: none;
     position:  absolute;
     left:-250px;
-    top:38px;
+    top:36px;
     background-color: #FFFFFF;
     height:210px;
     min-width: 420px;
