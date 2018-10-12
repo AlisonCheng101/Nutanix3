@@ -96,7 +96,7 @@ h1 {
 }
 
 .dropbtn.focus {
-  background-color: #D5DAE0;
+  opacity: 0.8;
   outline: 0;
   border: none;
   -moz-outline-style: none;
@@ -111,7 +111,7 @@ h1 {
 .dropdown-content {
     display: none;
     position:  absolute;
-    left:-200px;
+    left:-250px;
     top:40px;
     background-color: #22272E;
     min-width: 420px;
